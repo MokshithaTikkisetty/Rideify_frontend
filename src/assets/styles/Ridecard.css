@@ -1,0 +1,82 @@
+.checkout-container {
+    display: flex;
+    width: 800px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .checkout-left {
+    /* background: #2684ff; */
+     background: linear-gradient(90deg, #E9919C, #6C375C); 
+    color: white;
+    padding: 20px;
+    width: 40%;
+  }
+  
+  .brand {
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .subscription-box {
+    padding: 20px;
+  }
+  
+  .price {
+    font-size: 18px;
+  }
+  
+  .price span {
+    font-weight: bold;
+  }
+  
+  .price-details p {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .total {
+    font-weight: bold;
+  }
+  
+  .checkout-right {
+    padding: 20px;
+    width: 60%;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .card-details {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .location-details {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .input-field.small {
+    flex: 1;
+  }
+  
+  .subscribe-btn {
+    width: 100%;
+    /* background: #2684ff; */
+     background: linear-gradient(90deg, #E9919C, #6C375C); 
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,42 @@
+.choose-action-page {
+  height: 100vh;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-container {
+  background: #f1f1f1;
+  padding: 40px 60px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.action-container h2 {
+  font-size: 24px;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.action-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.action-button:hover {
+  background-color: #388e3c;
+}

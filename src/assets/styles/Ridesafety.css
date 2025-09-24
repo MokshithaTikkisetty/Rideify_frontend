@@ -1,0 +1,311 @@
+/* 
+.commitment-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+   background-color:white;
+    flex-wrap: wrap;
+  }
+  .parent{
+    grid-column:1/4;
+    grid-row: 1/2;
+  }
+  
+  .commitment-text {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    padding: 20px;
+  }
+  
+  .commitment-text h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 20px;
+  }
+  
+  .commitment-text p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .commitment-image {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .commitment-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .banner-container {
+    background-image: url('/images/Safetyimage.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }  
+
+
+
+  .covers-everyone-section {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .covers-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+  
+  .covers-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .cover-card {
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .cover-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .cover-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .cover-card p {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.5;
+  }
+  .quote-card {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .quote-text {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-style: italic;
+  }
+  
+  .quote-author {
+    font-size: 1rem;
+    color: #555;
+    text-align: right;
+    font-weight: bold;
+  }  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .safety-page {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f2faff, #e6f7ff);
+  color: #333;
+}
+
+.mission-banner {
+  position: relative;
+  text-align: center;
+}
+
+.bg-img img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(0.75);
+  border-bottom: 4px solid #0072ff;
+}
+
+.mission-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 90%;
+  max-width: 800px;
+  
+  text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+.mission-content h1 {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-weight: 700;
+  line-height: 1.4;
+  animation: fadeInUp 1s ease both;
+}
+
+/* Commitment Section */
+.commitment-section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 20px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  margin: 40px auto;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.05);
+  gap: 40px;
+  justify-content: center;
+}
+
+.commitment-text {
+  flex: 1;
+  min-width: 280px;
+  max-width: 500px;
+}
+
+.commitment-text h2 {
+  color: #0072ff;
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  margin-bottom: 20px;
+}
+
+.commitment-text p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.commitment-image img {
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+/* Covers Section */
+.covers-everyone-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.covers-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: #0072ff;
+  margin-bottom: 40px;
+}
+
+.covers-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.cover-card {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 16px;
+  max-width: 280px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.cover-card:hover {
+  transform: translateY(-5px);
+}
+
+.cover-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.cover-card h3 {
+  font-size: 1.25rem;
+  color: #0072ff;
+  margin-bottom: 10px;
+}
+
+.cover-card p {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* Quote */
+.quote-card {
+  background: #0072ff;
+  color: white;
+  padding: 2rem;
+  margin-top: 60px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.1);
+}
+
+.quote-text h1 {
+  font-size: 1.4rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.quote-author {
+  text-align: right;
+  font-weight: bold;
+  font-size: 1rem;
+}
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

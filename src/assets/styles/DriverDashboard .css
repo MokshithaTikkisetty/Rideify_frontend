@@ -1,0 +1,28 @@
+.dashboard-container {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.ride-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+.button-group button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.requests-section {
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.request-card {
+  margin-bottom: 10px;
+}

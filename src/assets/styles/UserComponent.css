@@ -1,0 +1,81 @@
+/* UserComponent.css */
+.user-component-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.user-component-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.user-component-container input {
+  padding: 0.8rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.user-component-container input:focus {
+  border-color: #f8c537;
+  box-shadow: 0 0 0 2px rgba(248, 197, 55, 0.2);
+  outline: none;
+}
+
+.user-component-container button {
+  background-color: #f8c537;
+  color: #1a1a1a;
+  border: none;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 0.5rem;
+}
+
+.user-component-container button:hover {
+  background-color: #ffd700;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .user-component-container {
+    padding: 1.5rem;
+    margin: 1.5rem;
+  }
+  
+  .user-component-container h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .user-component-container {
+    padding: 1rem;
+    margin: 1rem;
+  }
+  
+  .user-component-container input {
+    padding: 0.7rem;
+  }
+  
+  .user-component-container button {
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+}

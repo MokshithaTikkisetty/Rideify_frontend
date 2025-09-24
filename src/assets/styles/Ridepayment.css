@@ -1,0 +1,187 @@
+/* 
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  
+}
+
+.payment-container {
+  background-image: url('fef7e964-4bd6-4355-b573-bf44bc9c3da0.png'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-box {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 40px 60px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.content-box h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+.content-box p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.payment-methods a,
+.payment-methods button {
+  display: block;
+  margin: 8px auto;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.payment-methods button {
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.payment-methods i {
+  margin-right: 8px;
+} */
+
+
+
+
+
+
+/* Ridepayment.css */
+
+.container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 48px;
+  color: #ff5722;
+  margin-bottom: 5px;
+}
+
+.header h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Payment Methods Container */
+.payment-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Each Payment Method */
+.method {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #fafafa;
+}
+
+.method:hover {
+  border-color: #ff5722;
+  background: #fff3f0;
+}
+
+.method i {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #ff5722;
+}
+
+.method a, .method button {
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+
+/* ADD MONEY Button */
+.method button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 25px;
+  background-color: #ff5722;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.method button:hover {
+  background-color: #e64a19;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .container {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .header h1 {
+    font-size: 36px;
+  }
+
+  .header h2 {
+    font-size: 20px;
+  }
+
+  .method {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .method button {
+    margin-top: 10px;
+  }
+}
